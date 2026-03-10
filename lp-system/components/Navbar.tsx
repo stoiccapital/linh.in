@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { spacing, layout, navbar, ColorTheme } from '../config/design-system';
 import { CTAButton } from './ui/CTAButton';
+import { LocaleToggle } from './ui/LocaleToggle';
 import { ThemeToggle } from './ui/ThemeToggle';
 
 export type NavbarLabels = {
@@ -96,8 +97,9 @@ export function Navbar({ theme, labels }: NavbarProps) {
           
           {/* Right: Toggle Cluster + CTA + Hamburger (Mobile) */}
           <div className={`flex items-center ${spacing.gap.sm}`}>
-            {/* Toggle Cluster (Desktop): ThemeToggle, CTA */}
+            {/* Toggle Cluster (Desktop): LocaleToggle, ThemeToggle, CTA */}
             <div className={`hidden md:flex items-center ${spacing.gap.sm}`}>
+              <LocaleToggle />
               <ThemeToggle />
               <CTAButton variant="primary" theme={theme} label={labels.cta} />
             </div>
@@ -148,8 +150,9 @@ export function Navbar({ theme, labels }: NavbarProps) {
             className={`md:hidden border-t ${navbar.borderColor} ${spacing.block.y.md}`}
           >
             <div className={`flex flex-col ${spacing.block.y.md}`}>
-              {/* Toggle Cluster (Mobile): ThemeToggle */}
+              {/* Toggle Cluster (Mobile): LocaleToggle, ThemeToggle */}
               <div className={`flex items-center ${spacing.gap.sm} ${spacing.block.y.sm}`}>
+                <LocaleToggle />
                 <ThemeToggle />
               </div>
 

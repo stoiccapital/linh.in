@@ -12,7 +12,7 @@ export function generateStaticParams() {
 }
 
 type Props = {
-  params: Promise<{ locale: 'en' }>;
+  params: Promise<{ locale: 'en' | 'vn' }>;
 };
 
 export default async function LocalePage({ params }: Props) {

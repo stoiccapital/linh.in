@@ -1,0 +1,224 @@
+{
+  "example-lp": {
+    "hero": {
+      "eyebrow": "Dịch vụ Influencer Marketing",
+      "title": "Chiến dịch influencer giúp thương hiệu tăng trưởng nhanh hơn",
+      "subtitle": "Tôi đồng hành cùng thương hiệu để lên chiến lược, sản xuất và phân phối chiến dịch chuyển đổi cao trên Instagram, TikTok và video ngắn.",
+      "primaryCtaLabel": "Đặt lịch tư vấn",
+      "secondaryCtaLabel": "Xem dịch vụ"
+    },
+    "socialProof": {},
+    "valueProps": {
+      "heading": "Tất cả những gì thương hiệu cần để tăng trưởng với creator",
+      "subtitle": "Chiến lược, sáng tạo và phân phối được triển khai bởi một đầu mối chịu trách nhiệm",
+      "items": [
+        {
+          "title": "Chiến lược chiến dịch",
+          "body": "Xác định rõ mục tiêu, chân dung khách hàng, hướng nội dung và KPI trước khi bắt đầu sản xuất."
+        },
+        {
+          "title": "Sản xuất nội dung",
+          "body": "Nội dung short-form đúng tinh thần nền tảng, theo đúng bản sắc thương hiệu và tạo sự tin tưởng."
+        },
+        {
+          "title": "Tối ưu hiệu quả",
+          "body": "Tối ưu hằng tuần về hook, thông điệp và creative dựa trên reach, watch time và dữ liệu chuyển đổi."
+        }
+      ]
+    },
+    "features": {
+      "heading": "Dịch vụ được thiết kế để tạo kết quả đo lường được",
+      "subtitle": "Từ khởi động đến báo cáo, mỗi bước đều tập trung vào hiệu quả",
+      "items": [
+        {
+          "title": "Quản lý chiến dịch influencer",
+          "body": "Đồng hành trọn gói từ lên brief đến triển khai và bàn giao tài sản nội dung."
+        },
+        {
+          "title": "UGC + Nội dung video ngắn",
+          "body": "Nội dung tự nhiên theo nền tảng, giúp người xem đi từ quan tâm đến hành động."
+        },
+        {
+          "title": "Báo cáo cho thương hiệu",
+          "body": "Báo cáo ngắn gọn, rõ ràng về độ phủ, mức độ tương tác và kết quả chuyển đổi."
+        }
+      ]
+    },
+    "deepDive": {
+      "heading": "Quy trình hợp tác với thương hiệu",
+      "subtitle": "Quy trình đơn giản từ discovery đến scale chiến dịch",
+      "steps": [
+        {
+          "title": "Discovery + fit sản phẩm",
+          "body": "Thống nhất về chân dung khách hàng, lợi thế sản phẩm và mục tiêu chiến dịch để thông điệp bám sát kết quả kinh doanh."
+        },
+        {
+          "title": "Creative + phân phối",
+          "body": "Tôi sản xuất nội dung và phát hành theo storytelling ưu tiên creator, phù hợp từng kênh."
+        },
+        {
+          "title": "Đo lường + tối ưu",
+          "body": "Đánh giá hiệu quả, tìm góc nội dung thắng và tiếp tục tối ưu để tăng ROI."
+        }
+      ]
+    },
+    "useCases": {
+      "heading": "Phù hợp cho",
+      "subtitle": "Dành cho thương hiệu muốn tăng trưởng bằng creator-led marketing",
+      "items": [
+        {
+          "title": "Thương hiệu DTC",
+          "body": "Khởi tạo chiến dịch creator giúp sản phẩm gần gũi hơn và thúc đẩy quyết định mua."
+        },
+        {
+          "title": "Ra mắt sản phẩm mới",
+          "body": "Tạo độ phủ và social proof nhanh với nội dung short-form theo chiến dịch."
+        },
+        {
+          "title": "Team performance",
+          "body": "Bổ sung creative influencer vào funnel paid và organic để nâng cao hiệu suất chuyển đổi."
+        }
+      ]
+    },
+    "integrations": {
+      "heading": "Triển khai sẵn sàng trên mọi kênh",
+      "subtitle": "Tài sản chiến dịch được tổ chức để fit ngay vào quy trình hiện tại của bạn",
+      "integrations": [
+        { "name": "Instagram Reels" },
+        { "name": "TikTok" },
+        { "name": "YouTube Shorts" },
+        { "name": "Meta Ads" },
+        { "name": "UGC Libraries" },
+        { "name": "Creator Whitelisting" }
+      ]
+    },
+    "security": {
+      "heading": "Vận hành an toàn cho thương hiệu",
+      "subtitle": "Nội dung và quy trình hợp tác được thiết kế để kiểm soát chất lượng",
+      "items": [
+        {
+          "title": "Bám sát brand guideline",
+          "body": "Định hướng creative và thông điệp được căn chỉnh theo giọng điệu, vị trí và yêu cầu compliance của thương hiệu."
+        },
+        {
+          "title": "Quy trình duyệt thân thiện",
+          "body": "Mốc duyệt rõ ràng giúp team đi nhanh mà vẫn giữ chất lượng."
+        },
+        {
+          "title": "Tư duy hợp tác dài hạn",
+          "body": "Bài học từ chiến dịch được lưu trữ và tái sử dụng để nâng cao hiệu quả theo thời gian."
+        }
+      ]
+    },
+    "metrics": {
+      "heading": "Tập trung vào hiệu quả",
+      "subtitle": "Hợp tác xoay quanh tác động marketing có thể đo lường",
+      "metrics": [
+        {
+          "value": "3x",
+          "label": "Tốc độ test creative",
+          "description": "Nhiều góc nội dung được kiểm thử hơn trong mỗi chu kỳ chiến dịch"
+        },
+        {
+          "value": "Hằng tuần",
+          "label": "Nhịp độ tối ưu",
+          "description": "Liên tục cải tiến dựa trên dữ liệu hiệu quả"
+        },
+        {
+          "value": "1 đầu mối",
+          "label": "Liên lạc đơn giản",
+          "description": "Chiến lược, creative và báo cáo trong cùng một quy trình"
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Gói dịch vụ",
+      "subtitle": "Chọn mức hỗ trợ influencer marketing phù hợp cho thương hiệu của bạn",
+      "plans": [
+        {
+          "name": "Campaign Starter",
+          "price": "$1,500",
+          "description": "Dành cho thương hiệu bắt đầu chiến dịch influencer",
+          "features": [
+            "Buổi call chiến lược chiến dịch",
+            "3 tài sản video ngắn",
+            "1 buổi review tối ưu",
+            "Tổng kết hiệu quả"
+          ],
+          "ctaLabel": "Đặt gói Starter"
+        },
+        {
+          "name": "Growth Partner",
+          "price": "$3,900",
+          "description": "Dành cho thương hiệu scale chiến dịch hằng tháng",
+          "features": [
+            "Lập kế hoạch chiến dịch hằng tháng",
+            "8 tài sản video ngắn",
+            "Check-in tối ưu hằng tuần",
+            "Báo cáo hiệu quả theo kênh"
+          ],
+          "ctaLabel": "Bắt đầu tăng trưởng"
+        },
+        {
+          "name": "Retainer",
+          "price": "Tùy chỉnh",
+          "description": "Dành cho team cần hỗ trợ creator liên tục",
+          "features": [
+            "Phạm vi chiến dịch tùy chỉnh",
+            "Ưu tiên sản xuất creative",
+            "Lộ trình test nâng cao",
+            "Hỗ trợ đối tác chuyên sâu"
+          ],
+          "ctaLabel": "Nhận đề xuất"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Câu hỏi thường gặp",
+      "subtitle": "Tất cả thông tin bạn cần",
+      "items": [
+        {
+          "question": "Bạn thường làm việc với những loại thương hiệu nào?",
+          "answer": "Tôi hợp tác với thương hiệu hướng người tiêu dùng, đặc biệt là DTC, lifestyle và digital products."
+        },
+        {
+          "question": "Bạn chỉ làm nội dung hay có cả chiến lược?",
+          "answer": "Tôi làm cả hai: chiến lược chiến dịch, sản xuất creative, định hướng phát hành và tối ưu liên tục."
+        },
+        {
+          "question": "Bao lâu để có thể launch chiến dịch?",
+          "answer": "Thông thường có thể bắt đầu trong vài ngày sau onboarding, tùy thuộc vào phạm vi và tốc độ phê duyệt."
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Thương hiệu nói gì về sự hợp tác",
+      "subtitle": "Được tin tưởng bởi các team ưu tiên hiệu quả creator có thể đo lường",
+      "testimonials": [
+        {
+          "quote": "Nội dung rất đúng tinh thần nền tảng nhưng vẫn giữ được bản sắc thương hiệu. Chất lượng tương tác cải thiện ngay lập tức.",
+          "name": "Olivia Reed",
+          "role": "Brand Manager",
+          "metric": "Tăng chất lượng tương tác"
+        },
+        {
+          "quote": "Cuối cùng chúng tôi có một đối tác có thể sở hữu cả chiến lược lẫn triển khai mà không cần trao đổi quá nhiều lần.",
+          "name": "Marcus Lee",
+          "role": "Growth Lead",
+          "metric": "Rút ngắn chu kỳ chiến dịch"
+        },
+        {
+          "quote": "Cả team paid và organic đều dùng được tài sản. Nội dung creator giúp chúng tôi có hook tốt hơn trên nhiều kênh.",
+          "name": "Nina Patel",
+          "role": "Head of Performance",
+          "metric": "Creative đa kênh hiệu quả hơn"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Sẵn sàng tăng trưởng thương hiệu với influencer marketing?",
+      "subtitle": "Cùng lên kế hoạch chiến dịch creator phù hợp theo mục tiêu của bạn",
+      "ctaLabel": "Đặt lịch call"
+    }
+  }
+}

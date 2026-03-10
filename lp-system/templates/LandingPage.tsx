@@ -22,7 +22,7 @@ import { FinalCTA } from '../sections/FinalCTA';
 export type LandingPageTemplateProps = {
   theme: ThemeName;
   copy: PageCopyConfig;
-  locale: 'en';
+  locale: 'en' | 'vn';
   lpId?: string;
 };
 
