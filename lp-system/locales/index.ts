@@ -1,14 +1,12 @@
 import type { PageCopyConfig } from '../config/types';
 import enData from './en.json';
-import deData from './de.json';
 
-const localeData: Record<'en' | 'de', Record<string, PageCopyConfig>> = {
+const localeData: Record<'en', Record<string, PageCopyConfig>> = {
   en: enData as Record<string, PageCopyConfig>,
-  de: deData as Record<string, PageCopyConfig>,
 };
 
 export function loadPageCopy(
-  locale: 'en' | 'de',
+  locale: 'en',
   lpId: string
 ): PageCopyConfig | null {
   const data = localeData[locale];
@@ -27,8 +25,6 @@ export type ShellMessages = {
     cta: string;
     ariaLabels: {
       goToHomepage: string;
-      switchToEnglish: string;
-      switchToGerman: string;
       openMenu: string;
       closeMenu: string;
     };
@@ -43,7 +39,7 @@ export type ShellMessages = {
   };
 };
 
-const shellMessages: Record<'en' | 'de', ShellMessages> = {
+const shellMessages: Record<'en', ShellMessages> = {
   en: {
     navbar: {
       brand: 'Logo',
@@ -56,8 +52,6 @@ const shellMessages: Record<'en' | 'de', ShellMessages> = {
       cta: 'Get Started',
       ariaLabels: {
         goToHomepage: 'Go to homepage',
-        switchToEnglish: 'Switch to English',
-        switchToGerman: 'Switch to German',
         openMenu: 'Open main menu',
         closeMenu: 'Close main menu',
       },
@@ -71,36 +65,9 @@ const shellMessages: Record<'en' | 'de', ShellMessages> = {
       },
     },
   },
-  de: {
-    navbar: {
-      brand: 'Logo',
-      links: {
-        features: 'Funktionen',
-        pricing: 'Preise',
-        useCases: 'Anwendungsfälle',
-        faq: 'FAQ',
-      },
-      cta: 'Loslegen',
-      ariaLabels: {
-        goToHomepage: 'Zur Startseite',
-        switchToEnglish: 'Zu Englisch wechseln',
-        switchToGerman: 'Zu Deutsch wechseln',
-        openMenu: 'Hauptmenü öffnen',
-        closeMenu: 'Hauptmenü schließen',
-      },
-    },
-    footer: {
-      copyright: '© 2024 Firmenname. Alle Rechte vorbehalten.',
-      links: {
-        privacy: 'Datenschutz',
-        terms: 'Nutzungsbedingungen',
-        contact: 'Kontakt',
-      },
-    },
-  },
 };
 
-export function getMessages(locale: 'en' | 'de'): ShellMessages {
+export function getMessages(locale: 'en'): ShellMessages {
   return shellMessages[locale];
 }
 

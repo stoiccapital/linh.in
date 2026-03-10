@@ -13,7 +13,7 @@ export const landingPages: LandingPageConfig[] = [
   { id: 'example-lp', vertical: 'saas', slug: 'fleet', theme: 'dark' },
 ];
 
-export function getDefaultLandingPage(locale: 'en' | 'de'): { vertical: string; slug: string } {
+export function getDefaultLandingPage(locale: 'en'): { vertical: string; slug: string } {
   // TODO: Support locale-specific landing pages in the future
   // For now, returns the first entry in landingPages regardless of locale
   void locale; // Reserved for future locale-specific page selection
@@ -33,7 +33,7 @@ export function getDefaultLandingPageRoute(): string {
 }
 
 export function findLandingPageConfig(
-  locale: 'en' | 'de',
+  locale: 'en',
   vertical: string,
   slug: string
 ): LandingPageConfig | null {

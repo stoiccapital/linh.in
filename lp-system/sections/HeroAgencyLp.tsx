@@ -2,7 +2,6 @@ import React from 'react';
 import type { SectionHeroCopy } from '../config/types';
 import { CTAButton } from '../components/ui/CTAButton';
 import { CTAGroup } from '../components/ui/CTAGroup';
-import { HeroLpPreviewMock } from '../components/ui/mocks';
 import { SplitGrid } from '../components/layouts/SplitGrid';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
 import { spacing, typography, maxTextWidth, globalBackground, ColorTheme } from '../config/design-system';
@@ -48,7 +47,7 @@ export function HeroAgencyLp({ copy, theme }: HeroAgencyLpProps) {
               </CTAGroup>
             </div>
           </div>
-          <HeroLpPreviewMock variant="single" />
+          <div className="hidden lg:block" />
         </SplitGrid>
       </CenteredLayout>
     </section>

@@ -1,176 +1,176 @@
 {
   "example-lp": {
     "hero": {
-      "eyebrow": "Productized Landing Pages",
-      "title": "Enterprise-grade landing pages, delivered in one week",
-      "subtitle": "Product-grade landing pages and multi-page websites for agencies. Scope defined upfront, predictable delivery.",
-      "primaryCtaLabel": "Get Started",
-      "secondaryCtaLabel": "Learn More"
+      "eyebrow": "Influencer Marketing Services",
+      "title": "Influencer-led campaigns that help brands grow faster",
+      "subtitle": "I partner with brands to plan, create, and distribute high-converting social campaigns across Instagram, TikTok, and short-form video.",
+      "primaryCtaLabel": "Book a Brand Call",
+      "secondaryCtaLabel": "View Services"
     },
     "socialProof": {
     },
     "valueProps": {
-      "heading": "Everything you need",
-      "subtitle": "Professional landing pages that convert",
+      "heading": "Everything brands need to scale with creators",
+      "subtitle": "Strategy, creative, and distribution delivered by one accountable partner",
       "items": [
         {
-          "title": "One Week Delivery",
-          "body": "From requirements to deployed site in one week."
+          "title": "Campaign Strategy",
+          "body": "Clear campaign goals, audience positioning, content angles, and KPI targets before production starts."
         },
         {
-          "title": "Consistent System",
-          "body": "Enterprise-grade structure and patterns every time."
+          "title": "Content Production",
+          "body": "On-brand short-form content, UGC-style assets, and creator-native scripts built for engagement and trust."
         },
         {
-          "title": "Performance Ready",
-          "body": "Optimized code, responsive design, SEO-ready structure."
+          "title": "Optimization Support",
+          "body": "Weekly iteration on hooks, messaging, and creative based on reach, watch time, and conversion signals."
         }
       ]
     },
     "features": {
-      "heading": "Built for results",
-      "subtitle": "Everything that makes landing pages perform",
+      "heading": "Services designed for measurable brand outcomes",
+      "subtitle": "From launch to reporting, every step is focused on performance",
       "items": [
         {
-          "title": "Bilingual Copy Included",
-          "body": "English and German copy included by default."
+          "title": "Influencer Campaign Management",
+          "body": "End-to-end support from brief creation to campaign execution and content delivery."
         },
         {
-          "title": "Performance Optimization",
-          "body": "Fast load times and optimized assets built in."
+          "title": "UGC + Short-Form Creative",
+          "body": "Platform-native content that feels authentic and moves audiences from interest to action."
         },
         {
-          "title": "Deployment Ready",
-          "body": "Deployed and ready to go, source code included."
+          "title": "Brand Reporting",
+          "body": "Simple reports with clear takeaways on reach, engagement, and conversion performance."
         }
       ]
     },
     "deepDive": {
-      "heading": "How it works",
-      "subtitle": "One week from start to launch",
+      "heading": "How brand partnerships work",
+      "subtitle": "A simple process from discovery to campaign scale",
       "steps": [
         {
-          "title": "Define scope upfront",
-          "body": "Share requirements, goals, and brand assets. Scope is defined before work begins."
+          "title": "Discovery + Offer Fit",
+          "body": "We align on your audience, product offer, and campaign goals so messaging is built around business outcomes."
         },
         {
-          "title": "We build in one week",
-          "body": "Your landing page or website is built with copy, responsive design, dark/light mode, and performance optimization."
+          "title": "Creative + Distribution",
+          "body": "I produce campaign content and publish with creator-first storytelling tailored to each channel."
         },
         {
-          "title": "One revision included, then launch",
-          "body": "Review, make adjustments with your included revision, and deploy. Source code delivered."
+          "title": "Measure + Optimize",
+          "body": "We review performance, identify winning angles, and refine future content for stronger ROI."
         }
       ]
     },
     "useCases": {
-      "heading": "Perfect for",
-      "subtitle": "Built for agencies and teams",
+      "heading": "Ideal for",
+      "subtitle": "Built for brands that want creator-led growth",
       "items": [
         {
-          "title": "Agencies",
-          "body": "Deliver client websites and landing pages with predictable timelines and consistent quality."
+          "title": "DTC Brands",
+          "body": "Launch creator campaigns that make products more relatable and purchase-ready."
         },
         {
-          "title": "Product Launches",
-          "body": "Get a professional landing page delivered in one week for your launch."
+          "title": "New Product Drops",
+          "body": "Generate momentum and social proof fast with campaign-focused short-form content."
         },
         {
-          "title": "Marketing Campaigns",
-          "body": "Create dedicated pages for campaigns with fast turnaround."
+          "title": "Performance Teams",
+          "body": "Add influencer creative to paid and organic funnels to improve conversion efficiency."
         }
       ]
     },
     "integrations": {
-      "heading": "Works with your stack",
-      "subtitle": "Easy handoff to your existing tools",
+      "heading": "Channel-ready execution",
+      "subtitle": "Campaign assets that fit directly into your existing workflow",
       "integrations": [
-        { "name": "Vercel" },
-        { "name": "Netlify" },
-        { "name": "CMS" },
-        { "name": "Analytics" },
-        { "name": "Payments" },
-        { "name": "Email Tools" }
+        { "name": "Instagram Reels" },
+        { "name": "TikTok" },
+        { "name": "YouTube Shorts" },
+        { "name": "Meta Ads" },
+        { "name": "UGC Libraries" },
+        { "name": "Creator Whitelisting" }
       ]
     },
     "security": {
-      "heading": "Code quality",
-      "subtitle": "Production-ready code you can trust",
+      "heading": "Brand-safe execution",
+      "subtitle": "Content and collaboration designed for quality control",
       "items": [
         {
-          "title": "Enterprise-Grade Code",
-          "body": "Well-structured, maintainable code following best practices."
+          "title": "Brand Guideline Alignment",
+          "body": "Creative direction and messaging are aligned with your voice, positioning, and compliance requirements."
         },
         {
-          "title": "SEO-Ready Structure",
-          "body": "Built with search visibility and performance optimization."
+          "title": "Review-Friendly Workflow",
+          "body": "Clear checkpoints for approvals so teams can move fast without sacrificing quality."
         },
         {
-          "title": "Responsive + Dark/Light Mode",
-          "body": "Tested across devices with theme support included."
+          "title": "Long-Term Partnership Mindset",
+          "body": "Campaign learning is documented and reused to improve performance over time."
         }
       ]
     },
     "metrics": {
-      "heading": "Proven performance",
-      "subtitle": "Results that speak for themselves",
+      "heading": "Performance focus",
+      "subtitle": "Partnerships built around measurable marketing impact",
       "metrics": [
         {
-          "value": "7 days",
-          "label": "Average delivery time",
-          "description": "From kickoff to deployment"
+          "value": "3x",
+          "label": "Creative testing velocity",
+          "description": "More angles tested per campaign cycle"
         },
         {
-          "value": "100%",
-          "label": "Defined scope",
-          "description": "No surprises during execution"
+          "value": "Weekly",
+          "label": "Optimization cadence",
+          "description": "Continuous refinements based on performance data"
         },
         {
-          "value": "0 days",
-          "label": "Deployment standard",
-          "description": "No additional preparation required"
+          "value": "1 partner",
+          "label": "Single point of contact",
+          "description": "Strategy, creative, and reporting in one workflow"
         }
       ]
     },
     "pricing": {
-      "heading": "Simple pricing",
-      "subtitle": "Choose the plan that works for you",
+      "heading": "Service packages",
+      "subtitle": "Choose the level of influencer marketing support your brand needs",
       "plans": [
         {
-          "name": "Single Page",
-          "price": "$1,190",
-          "description": "One landing page",
+          "name": "Campaign Starter",
+          "price": "$1,500",
+          "description": "For first influencer campaign launches",
           "features": [
-            "1 landing page",
-            "1 revision included",
-            "Deployment included",
-            "Source code included"
+            "Campaign strategy call",
+            "3 short-form content assets",
+            "1 optimization review",
+            "Performance recap"
           ],
-          "ctaLabel": "Get Started"
+          "ctaLabel": "Book Starter"
         },
         {
-          "name": "Package",
-          "price": "$2,990",
-          "description": "3 pages",
+          "name": "Growth Partner",
+          "price": "$3,900",
+          "description": "For brands scaling monthly campaigns",
           "features": [
-            "3 pages",
-            "1 revision included",
-            "Deployment included",
-            "Source code included"
+            "Monthly campaign planning",
+            "8 short-form content assets",
+            "Weekly optimization check-ins",
+            "Channel performance reporting"
           ],
-          "ctaLabel": "Get Started"
+          "ctaLabel": "Start Growth"
         },
         {
-          "name": "Enterprise",
+          "name": "Retainer",
           "price": "Custom",
-          "description": "Custom scope",
+          "description": "For teams needing ongoing creator support",
           "features": [
-            "Custom scope",
-            "Scope defined upfront",
-            "Deployment included",
-            "Source code included"
+            "Custom campaign scope",
+            "Priority creative production",
+            "Advanced testing roadmap",
+            "Dedicated partnership support"
           ],
-          "ctaLabel": "Contact Sales"
+          "ctaLabel": "Request Proposal"
         }
       ]
     },
@@ -179,47 +179,47 @@
       "subtitle": "Everything you need to know",
       "items": [
         {
-          "question": "How long does it take?",
-          "answer": "Typical timeline is one week from requirements to deployment."
+          "question": "What kinds of brands do you work with?",
+          "answer": "I work with consumer-focused brands that want creator-led growth, especially DTC, lifestyle, and digital product companies."
         },
         {
-          "question": "Can I make changes after delivery?",
-          "answer": "One revision is included. Additional revisions are $100 per revision. You also receive source code to make updates yourself."
+          "question": "Do you only create content or also manage strategy?",
+          "answer": "Both. I support campaign strategy, creative production, publishing approach, and ongoing optimization."
         },
         {
-          "question": "What do I need to provide?",
-          "answer": "Requirements, goals, and brand assets. If needed, access for deployment. We handle design, development, and optimization."
+          "question": "How quickly can we launch a campaign?",
+          "answer": "Most partnerships can begin within days after onboarding, depending on campaign scope and approval speed."
         }
       ]
     },
     "testimonials": {
-      "heading": "What our customers say",
-      "subtitle": "Trusted by founders and agencies",
+      "heading": "What brand partners say",
+      "subtitle": "Trusted by teams that value measurable creator performance",
       "testimonials": [
         {
-          "quote": "We needed a landing page fast for our product launch. They delivered exactly what we needed on time.",
-          "name": "Sarah Johnson",
-          "role": "Founder",
-          "metric": "Fast delivery"
+          "quote": "The campaign felt native to the platform and still stayed true to our brand. Engagement quality improved immediately.",
+          "name": "Olivia Reed",
+          "role": "Brand Manager",
+          "metric": "Higher engagement quality"
         },
         {
-          "quote": "The quality is exceptional and the speed is unmatched. Best investment we made this quarter.",
-          "name": "Michael Chen",
-          "role": "Marketing Director",
-          "metric": "Predictable scope"
+          "quote": "We finally had a partner who could own strategy and execution without constant back-and-forth.",
+          "name": "Marcus Lee",
+          "role": "Growth Lead",
+          "metric": "Faster campaign cycles"
         },
         {
-          "quote": "As an agency, we use them for all our client landing pages. Consistent quality every time.",
-          "name": "Emma Williams",
-          "role": "Creative Director",
-          "metric": "Performance ready"
+          "quote": "Our paid and organic teams both used the assets. The creator content gave us stronger hooks across channels.",
+          "name": "Nina Patel",
+          "role": "Head of Performance",
+          "metric": "Better cross-channel creative"
         }
       ]
     },
     "finalCta": {
-      "heading": "Ready to get started?",
-      "subtitle": "Get your landing page or website delivered in one week",
-      "ctaLabel": "Get Started"
+      "heading": "Ready to grow your brand with influencer marketing?",
+      "subtitle": "Let’s build a creator-led campaign plan tailored to your goals",
+      "ctaLabel": "Book a Call"
     }
   }
 }

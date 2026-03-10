@@ -22,7 +22,7 @@ import { FinalCTA } from '../sections/FinalCTA';
 export type LandingPageTemplateProps = {
   theme: ThemeName;
   copy: PageCopyConfig;
-  locale: 'en' | 'de';
+  locale: 'en';
   lpId?: string;
 };
 
@@ -56,7 +56,7 @@ export function LandingPageTemplate({
   return (
     <div className={`min-h-screen ${themeConfig.background} ${themeConfig.font}`}>
       {/* 1. Navbar */}
-      <Navbar theme={theme} labels={messages.navbar} locale={locale} />
+      <Navbar theme={theme} labels={messages.navbar} />
       
       {/* Main content */}
       <main>

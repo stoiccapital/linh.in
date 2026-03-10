@@ -2,8 +2,7 @@ import React from 'react';
 import type { SectionDeepDiveCopy } from '../config/types';
 import { SplitGrid } from '../components/layouts/SplitGrid';
 import { SingleColumn } from '../components/layouts/SingleColumn';
-import { ValuePropMock } from '../components/ui/mocks';
-import { spacing, typography, colors, maxTextWidth, globalBackground, ColorTheme } from '../config/design-system';
+import { spacing, typography, maxTextWidth, globalBackground, ColorTheme } from '../config/design-system';
 
 export type DeepDiveProps = {
   copy: SectionDeepDiveCopy;
@@ -30,11 +29,7 @@ export function DeepDive({ copy, theme }: DeepDiveProps) {
               {copy.subtitle}
             </p>
           </div>
-          <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-xl lg:max-w-2xl">
-              <ValuePropMock kind="timeline" />
-            </div>
-          </div>
+          <div className="hidden lg:block" />
         </SplitGrid>
       </SingleColumn>
     </section>

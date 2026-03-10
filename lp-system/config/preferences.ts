@@ -21,7 +21,7 @@ export const VALID_THEMES: readonly Theme[] = ['light', 'dark'] as const;
 // LOCALE CONSTANTS
 // ============================================================================
 
-export const LOCALES = ['en', 'de'] as const;
+export const LOCALES = ['en'] as const;
 
 export type Locale = typeof LOCALES[number];
 
@@ -36,9 +36,3 @@ export function isValidTheme(value: unknown): value is Theme {
   return typeof value === 'string' && VALID_THEMES.includes(value as Theme);
 }
 
-/**
- * Returns the opposite locale
- */
-export function getOppositeLocale(locale: Locale): Locale {
-  return locale === 'en' ? 'de' : 'en';
-}

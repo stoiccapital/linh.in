@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { spacing, layout, navbar, ColorTheme } from '../config/design-system';
 import { CTAButton } from './ui/CTAButton';
-import { LocaleToggle } from './ui/LocaleToggle';
 import { ThemeToggle } from './ui/ThemeToggle';
 
 export type NavbarLabels = {
@@ -17,8 +16,6 @@ export type NavbarLabels = {
   cta: string;
   ariaLabels: {
     goToHomepage: string;
-    switchToEnglish: string;
-    switchToGerman: string;
     openMenu: string;
     closeMenu: string;
   };
@@ -27,10 +24,9 @@ export type NavbarLabels = {
 export type NavbarProps = {
   theme: ColorTheme;
   labels: NavbarLabels;
-  locale: 'en' | 'de';
 };
 
-export function Navbar({ theme, labels, locale }: NavbarProps) {
+export function Navbar({ theme, labels }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   // Scroll to section handler
@@ -76,7 +72,8 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
-                handleLogoClick(e as any);
+                scrollToSection('hero');
+                setIsOpen(false);
               }
             }}
           >
@@ -99,9 +96,8 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
           
           {/* Right: Toggle Cluster + CTA + Hamburger (Mobile) */}
           <div className={`flex items-center ${spacing.gap.sm}`}>
-            {/* Toggle Cluster (Desktop): LocaleToggle, ThemeToggle, CTA */}
+            {/* Toggle Cluster (Desktop): ThemeToggle, CTA */}
             <div className={`hidden md:flex items-center ${spacing.gap.sm}`}>
-              <LocaleToggle />
               <ThemeToggle />
               <CTAButton variant="primary" theme={theme} label={labels.cta} />
             </div>
@@ -152,9 +148,8 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
             className={`md:hidden border-t ${navbar.borderColor} ${spacing.block.y.md}`}
           >
             <div className={`flex flex-col ${spacing.block.y.md}`}>
-              {/* Toggle Cluster (Mobile): LocaleToggle, ThemeToggle */}
+              {/* Toggle Cluster (Mobile): ThemeToggle */}
               <div className={`flex items-center ${spacing.gap.sm} ${spacing.block.y.sm}`}>
-                <LocaleToggle />
                 <ThemeToggle />
               </div>
 
