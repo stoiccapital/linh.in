@@ -42,7 +42,7 @@ export type ShellMessages = {
 const shellMessages: Record<'en', ShellMessages> = {
   en: {
     navbar: {
-      brand: 'Logo',
+      brand: 'Linh Enterprise',
       links: {
         features: 'Features',
         pricing: 'Pricing',
