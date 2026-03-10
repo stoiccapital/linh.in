@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import type { SectionHeroCopy } from '../config/types';
 import { CTAButton } from '../components/ui/CTAButton';
 import { CTAGroup } from '../components/ui/CTAGroup';
@@ -47,7 +48,16 @@ export function HeroAgencyLp({ copy, theme }: HeroAgencyLpProps) {
               </CTAGroup>
             </div>
           </div>
-          <div className="hidden lg:block" />
+          <div className="flex justify-center lg:justify-end">
+            <Image
+              src="/images/hero-linh.png"
+              alt="Linh influencer hero portrait"
+              width={640}
+              height={800}
+              priority
+              className="w-full max-w-sm lg:max-w-md rounded-2xl object-cover border border-border-subtle shadow-lg"
+            />
+          </div>
         </SplitGrid>
       </CenteredLayout>
     </section>
